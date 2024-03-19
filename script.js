@@ -1,5 +1,11 @@
 let bool = false
 function changetext(){
-  document.getElementById("gg").innerHTML = "fly off the building OH GOD I CANT FLY"
+  if(bool == true){
+    bool = false
+    document.getElementById("gg").innerHTML = "off"
+  } else {
+    bool = true
+    document.getElementById("gg").innerHTML = "on"
+  }
 }
   
