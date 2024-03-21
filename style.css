@@ -1,5 +1,91 @@
+
 html {
   height: 100%;
   width: 100%;
-  background-color: #000000;
+  background-color: #292929;
+}
+
+.nbgtxt {
+  color: #d6d6d6;
+  font-family: 'Arial';
+}
+
+.img {
+  width: 75px;
+  height: 37.5px;
+  cursor: pointer;
+}
+
+.imgrs {
+  width: 130px;
+  height: 37.5px;
+  cursor: pointer;
+}
+
+.olayimgrs {
+  color: #d6d6d6;
+  font-family: 'Arial';
+  font-size: 20px;
+  position: relative;
+  top: -12px;
+  left: -125px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.saveolayimg {
+  color: #d6d6d6;
+  font-family: 'Arial';
+  font-size: 20px;
+  position: relative;
+  top: -12px;
+  left: -63px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.olayimg {
+  color: #d6d6d6;
+  font-family: 'Arial';
+  font-size: 20px;
+  position: relative;
+  top: -12px;
+  left: -63px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.solayimg {
+  color: #d6d6d6;
+  font-family: 'Arial';
+  font-size: 20px;
+  position: relative;
+  top: -12px;
+  left: -59px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
 }
