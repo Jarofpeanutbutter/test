@@ -1,19 +1,46 @@
-
 <!DOCTYPE html>
 <html>
+  
+
+
+
 <head>
-  <script src="script.js"></script>
+  <script>
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>test</title>
+  <title>clicker</title>
+  <link rel="icon" type="image/x-icon" href="wjww.webp">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-<p id="gg">off</p>
-<button onclick="window.changetext()">switch</button>
-
-
-
-  
+  <script src="script.js"></script>
+  <p class='nbgtxt' id='clickscounter'>Clicks: 0</p>
+  <img src='wjww.webp' class='img' onclick="window.click(cperclick)"> <button class='olayimg' onclick="window.click(cperclick)">Click</button>
+  <h2 class='nbgtxt'>𝐒𝐡𝐨𝐩</h2>
+  <p id='clickerst' class='nbgtxt'>Autoclicker: 20 Clicks</p>
+  <img src='wjww.webp' class='img' onclick="window.buy('clicker')"> <button class='solayimg' onclick="window.buy('clicker')">Buy</button>
+  <p id='cperclickst' class='nbgtxt'>+1 Clicks Per Click: 40 Clicks</p>
+  <img src='wjww.webp' class='img' onclick="window.buy('cperclick')"> <button class='solayimg' onclick="window.buy('cperclick')">Buy</button>
+  <p id='workerst' class='nbgtxt'>Worker (makes 1 autoclicker per 10 seconds): 500 Clicks</p>
+  <img src='wjww.webp' class='img' onclick="window.buy('worker')"> <button class='solayimg' onclick="window.buy('worker')">Buy</button>
+  <h3 class='nbgtxt'>𝐎𝐧𝐞 𝐓𝐢𝐦𝐞 𝐔𝐩𝐠𝐫𝐚𝐝𝐞𝐬</h3>
+  <p id='upgrade' class='nbgtxt'>Make Autoclickers 2x More Efficient: 400 Clicks</p>
+  <img src='wjww.webp' class='img' onclick="window.buy('crupgrade')"> <button class='solayimg' onclick="window.buy('crupgrade')">Buy</button>
+  <h2 class='nbgtxt'>𝐒𝐭𝐚𝐭𝐬</h2>
+  <p id='cperclick' class='nbgtxt'>Clicks Per Click: 1</p>
+  <p id='isrush' class='nbgtxt'>x2 Rush: None</p>
+  <p id='clickers' class='nbgtxt'>Autoclickers: 0</p>
+  <p id='workers' class='nbgtxt'>Workers: 0</p>
+  <img src='wjww.webp' class='img' onclick="window.save()"> <button class='saveolayimg' onclick="window.save()">Save</button>
+  <p id='savecode' class='nbgtxt'>Save Code</p>
+  <div></div>
+  <img src='wjww.webp' class='img' onclick="window.load()"> <button class='saveolayimg' onclick="window.load()">Load</button>
+  <div></div>
+  <input type='text' id='inputload'>
+  <div></div>
+  <img src='wjww.webp' class='imgrs' onclick="window.resetgame()"> <button class='olayimgrs' onclick="window.resetgame()">Reset Game</button>
 </body>
+
 </html>
